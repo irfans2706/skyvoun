@@ -54,7 +54,7 @@ class Welcome extends CI_Controller {
 
 	public function post_form()
 	{
-		$data = $this->input->post();
+		$data = $this->input->post(); var_dump($_SESSION['jawab']); exit();
 
 		$this->load->view('header');
 		if($data["murdered"] == "irfan"){
