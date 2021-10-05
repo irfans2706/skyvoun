@@ -57,7 +57,7 @@ class Welcome extends CI_Controller {
 		$data = $this->input->post();
 
 		$this->load->view('header');
-		if($data["murdered"] == "irfan"){
+		if($data["murdered"] == "rajapati" || $data["murdered"] == "Rajapati"){
 			$this->session->sess_destroy();
 			$this->load->view('correct');
 		}else{
