@@ -11,7 +11,7 @@
     <meta name="author" content="GI-Tech">
 
     <title>
-        who is the murdered?
+        who is the murderer?
     </title>
 
     <!-- <link rel="shortcut icon" href="<?=base_url()?>resources/img/clipart/PibiMain1.png" type="image/x-icon"> -->
